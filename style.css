@@ -1,4 +1,74 @@
+#facebookIcon {
+  color: rgb(59,89,163)
+}
+#twitterIcon {
+  color: rgb(0, 172, 237)
+}
+#githubIcon {
+  color: rgb(102,43,129)
+}
+#linkedinIcon {
+  color: rgb(0,127,178)
+}
+.home {
+	background: url("image/gallery.jpg");
+	background-size: cover;
+	height: 800px;
+	padding-top: 15%
+}
+
 h1 {
-  color: green;
-  background: solid 2px black;
+	color: black;
+	text-align: : center;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul {
+	width: 150px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.btnList {
+	z-index: 1001;
+	position: absolute;
+	left: 0;
+	top: 20%;
+	/*top: calc(50% - (220px / 2));*/
+	/*width: 55px;
+	height: 220px;*/
+	padding: 0;
+	margin: 0;
+}
+.btnList a {
+/* 	margin: 5px 0px; */
+	list-style-type: none;
+	padding: 5px 10% 5% auto;
+	transition: .9s;
+	position: relative;
+	font-size: 40px;
+}
+.btnList a:hover {
+	padding: 5px 100px;
+}
+.paddingTop {
+  padding-top:20%;
+  padding-bottom-:2%;
+}
+   /*about*/
+.about {
+	background-image: url("image/black.jpg");
+	background-size: cover;
+	padding: 10% 10% 20% 20%;
+	float: right;
+}
+.about p {
+	color: white;
+}
+.project {
+	background-image: url("image/wooden.jpg");
+	background-size: cover;
+	padding-top: 20%;
 }
